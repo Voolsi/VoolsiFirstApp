@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Voolsi</string>
+    <string name="prediction">Stress Value</string>
+    <string name="probability">Probability</string>
+    <string name="timecost">Timecost</string>
+    <string name="timecost_value">%1$d ms</string>
+    <string name="empty">--</string>
+    <string name="detect">Detect</string>
+    <string name="clear">Clear</string>
+    <string name="failed_to_create_classifier">Failed to create classifier.</string>
+    <string name="please_restart">Please restart the application.</string>
+</resources>

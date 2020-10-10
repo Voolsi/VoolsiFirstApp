@@ -1,0 +1,3 @@
+Non stressed
+Stressed
+Very stressed

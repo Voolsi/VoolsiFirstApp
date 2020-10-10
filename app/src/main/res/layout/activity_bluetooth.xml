@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad_bg"
+    tools:context=".bluetooth"
+    android:id="@+id/rellay7">
+
+    <Button
+        android:id="@+id/bluetooth"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/et_bg"
+        android:fontFamily="sans-serif"
+        android:text="Bluetooth"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnlist"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/et_bg"
+        android:fontFamily="sans-serif"
+        android:text="Devices"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        tools:ignore="HardcodedText" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnlist"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="20dp"
+        android:background="@color/transparent"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_below="@+id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerInParent="true"
+        android:fontFamily="sans-serif"
+        android:textColor= "@color/white"
+        android:background="@color/transparent"/>
+
+    <Button
+        android:id="@+id/btnscan"
+        android:layout_below="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/et_bg"
+        android:fontFamily="sans-serif"
+        android:text="Devices"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnshow"
+        android:layout_below="@+id/btnscan"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"
+        android:text="Show"
+        android:textAllCaps="false"
+        android:layout_centerInParent="true"
+        android:fontFamily="sans-serif"
+        android:textColor= "@color/white"
+        android:background="@drawable/et_bg"/>
+
+    <TextView
+        android:id="@+id/message_box"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/btnshow"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerInParent="true"
+        android:fontFamily="sans-serif"
+        android:textColor= "@color/white"
+        android:background="@color/transparent"/>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad_bg"
+    tools:context=".animation"
+    android:id="@+id/rellay6">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/at_bg"
+        android:fontFamily="sans-serif"
+        android:text="Please, put the earbuds"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+    
+    <ImageView
+        android:layout_below="@+id/text"
+        android:layout_marginTop="150dp"
+        android:id="@+id/image"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"
+        tools:ignore="ContentDescription" />
+
+    <Button
+        android:id="@+id/btnstart"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_below="@+id/image"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/et_bg"
+        android:fontFamily="sans-serif"
+        android:text="Start"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        tools:ignore="HardcodedText" />
+
+
+    
+    
+</RelativeLayout>
